@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color:#F8FAFC;
+   padding: 25px;
+   
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 0.55fr;
+    width: 100%;
+    align-items: start;
+}
+
+.scl-info{
+    display: flex;
+    gap: 9px;
+}
+.logo{
+width: 65px;
+height: 70px;
+}
+.scl-info h2{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #1F3ABA;
+    margin-top:2px;
+}
+
+#quote{
+    color: #3882fa;
+    font-size: 13px;
+}
+
+.content{
+    font-size: 12px;
+    margin-top: 5px;
+
+}
+.content p{
+    margin-top: 4px;
+}
+.content span{
+    margin-left: 15px;
+}
+.scl-title h1{
+   font-size:28px;
+   color:#1F3ABA;
+} 
+.scl-title p{
+  background-color: #1bb1a4;
+  color: white;
+  padding: 4px 5px;
+  width: 200px;
+  margin-left: 110px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 7px;
+}
+.meta-data{
+      border: 1px solid #e2e8f0;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 6px;
+   padding: 2px 2px;
+}
+.meta-info{
+    display: flex;
+   border-radius: 4px;
+   margin-top: 5px;
+   margin-left: 30px;
+ 
+}
+.meta-info p{
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: 4px;
+}
+.meta-info i{
+    color: #1F3ABA;
+    margin-top: 4px;
+    font-size: 21px;
+}
+.top-details{
+    display: grid;
+    grid-template-columns: 1.5fr 0.80fr 0.75fr;
+    margin-top: 20px;
+    padding: 10px 5px;
+}
+.profile{
+    border: 1px solid #e2e8f0;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 6px;
+   width:90%;
+   padding: 5px;
+   padding-top: 10px;
+
+}
+.profile h4{
+    font-size: 14px;
+    font-weight: 600;
+    color: #1F3ABA;
+
+}
+#sicon{
+    margin-right: 13px;
+}
+.profile-details{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+.studentimg{
+    height: 110px;
+    width: 95px;
+    border: 1px solid #1bb1a4;
+    border-radius: 4px;
+    
+}
+.profile-info{
+    font-size: 13px;
+}
+.profile-info p{
+ margin-top: 3px;
+ word-spacing: 3px;
+}
